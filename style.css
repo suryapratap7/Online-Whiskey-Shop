@@ -1,0 +1,269 @@
+#boxmodel
+{
+width:800px;
+height:300px;
+padding:0px 200px;
+border:0px solid #333;
+ 
+float: center;
+}
+
+
+#header ul
+{
+      position:absolute; 
+      top: 20px;
+      left: 900px;     
+}
+
+#header ul li
+{
+        list-style-type: none;
+        display: inline;
+}
+
+
+
+#header li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	
+	font-family: Bernard MT Condensed;
+	color: black;
+	text-decoration: none;
+	
+	border-right: 1px solid #000;
+	
+}
+
+
+
+#header ul li:hover a 
+{
+	color: #fff;
+	background: #4b545f;
+}
+
+
+#navigation ul ul 
+{
+	display: none;
+}
+
+#navigation ul li:hover > ul 
+{
+       display: block;
+}
+
+#navigation ul 
+{
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 0px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	left: 130px;
+	display: inline-table;
+}
+	
+#navigation ul:after 
+{
+        content: ""; clear: both; display: block;
+}
+
+
+#navigation ul li 
+{
+	float: left;
+}
+	
+#navigation ul li:hover 
+{
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+		
+#navigation ul li:hover a 
+{
+		color: #fff;
+}
+	
+	
+#navigation ul li a 
+{
+		font-family: Bernard MT Condensed;
+		display: block; padding: 15px 40px;
+		color: #000000; text-decoration: none;
+}
+
+
+
+#navigation ul ul 
+{
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; 
+	top: 100%;
+	left: 34%;
+}
+	
+#navigation ul ul li 
+{
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+		
+#navigation ul ul li a 
+{
+	padding: 15px 40px;
+	color: #fff;
+}	
+			
+#navigation ul ul li a:hover 
+{
+	background: #4b545f;
+}
+
+
+
+
+
+#footer ul li
+{
+        list-style-type: none;
+        display: inline;
+}
+
+
+
+#footer li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	
+	font-family: Bernard MT Condensed;
+	color: black;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#footer ul li:hover a 
+{
+	color: #fff;
+	background: #4b545f;
+}
+
+#TD.mouseOver
+{
+  background-color: #FF8000;
+  color: black;
+  border-top: 1px #FF8000 solid;
+  border-right: 1px #FF8000 solid;
+  border-bottom: 1px #FF8000 solid;
+  border-left: 1px #FF8000 solid;
+}
+
+
+BODY
+{
+  background-color: #C0C0C0;
+}
+
+H1
+{
+  font-family: Bernard MT Condensed;
+  color: black;
+  position: relative; 
+  top: 30px;
+  left: 140px;
+  
+}
+
+H2
+{
+  font-family: Bernard MT Condensed;
+  color: black;
+  font-style: italic;
+  
+}
+
+.important
+{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+  
+#textBox
+{
+  background-color: white;
+  border-top: thin black solid;
+  text-align: center;
+  border-right: thin black solid;
+  border-bottom: thin black solid;
+  border-left: thin black solid;
+}
+
+TABLE.listing
+{
+  background-color: white;
+  border-top: thin black solid;
+  text-align: center;
+  border-right: thin black solid;
+  border-bottom: thin black solid;
+  border-left: thin black solid;
+}
+
+input[type="submit"]
+{
+background-color: #000000;
+color: White;
+font-family: Arial;
+font-size: 12px; }
+
+input[type="button"]
+{
+background-color: #000000;
+color: White;
+font-family: Arial;
+font-size: 12px; }
+
+
+
+
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:16px;
+	color:#333333; 
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+        color:#FFFFFF;
+	background-color:#000000;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#FFFFFF;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 20px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
